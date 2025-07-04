@@ -113,7 +113,7 @@ const LoginPage = () => {
             marginBottom: '1rem'
           }}
         >
-          Login
+          Đặng nhập
         </Typography>
       </Box>
       <form onSubmit={handleSubmit(onSubmit)}>
@@ -150,7 +150,7 @@ const LoginPage = () => {
             variant="outlined"
           >
             <InputLabel htmlFor="outlined-adornment-password">
-              Password
+              Mật khẩu
             </InputLabel>
             <Controller
               name="password"
@@ -197,7 +197,7 @@ const LoginPage = () => {
               variant="contained"
               sx={{ width: '8rem' }}
             >
-              <span>Login</span>
+              <span>Đăng nhập</span>
             </LoadingButton>
           </Box>
           {error && (

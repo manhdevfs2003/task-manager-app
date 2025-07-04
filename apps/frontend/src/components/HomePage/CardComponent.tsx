@@ -54,10 +54,10 @@ function CardComponent() {
         />
         <CardContent>
           <Typography variant="h5" sx={{ mb: '0.5rem' }}>
-            Project management
+            Quản lí dự án
           </Typography>
           <Typography variant="subtitle2">
-            Organize tasks and meet deadlines.
+            Tổ chức các nhiệm vụ và buổi họp.
           </Typography>
         </CardContent>
       </Card>
@@ -89,11 +89,11 @@ function CardComponent() {
         />
         <CardContent>
           <Typography variant="h5" sx={{ mb: '0.5rem' }}>
-            Task management
+            Quản lí công việc
           </Typography>
           <Typography>
-            You can track, manage, complete and bring together tasks
-            like pieces of a puzzle.
+            Giúp bạn theo dõi công việc, phân công nhiệm vụ và quản lý
+            thời gian hiệu quả.
           </Typography>
         </CardContent>
       </Card>
@@ -122,11 +122,10 @@ function CardComponent() {
         />
         <CardContent>
           <Typography variant="h5" sx={{ mb: '0.5rem' }}>
-            Idea management
+            Quản lí ý tưởng
           </Typography>
           <Typography variant="subtitle2">
-            Unleash your creativity and keep ideas visible, manageable
-            and actionable.
+            Lưu trữ và phát triển ý tưởng của bạn một cách hiệu quả.
           </Typography>
         </CardContent>
       </Card>

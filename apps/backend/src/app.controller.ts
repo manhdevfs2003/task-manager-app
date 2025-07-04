@@ -9,7 +9,7 @@ export class AppController {
     return {
       message: 'Task Manager API is running!',
       timestamp: new Date().toISOString(),
-      version: '1.0.0'
+      version: '1.0.0',
     };
   }
 
@@ -19,7 +19,7 @@ export class AppController {
     return {
       status: 'OK',
       uptime: process.uptime(),
-      timestamp: new Date().toISOString()
+      timestamp: new Date().toISOString(),
     };
   }
 }

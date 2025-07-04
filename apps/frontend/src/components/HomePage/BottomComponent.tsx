@@ -32,8 +32,8 @@ const BottomComponent = () => {
             textAlign: 'center'
           }}
         >
-          You can see your work from a completely different
-          perspective
+          Quản lí công việc giúp bạn tăng cường năng suất làm việc của
+          mình.
         </Typography>
         <Typography
           variant="h6"
@@ -48,8 +48,8 @@ const BottomComponent = () => {
             lineHeight: { xs: '1rem', sm: '1.5rem' }
           }}
         >
-          You can create your projects in a personalized way, so you
-          can see the current tasks from a fresh perspective.
+          Tổ chức công việc, quản lý thời gian và tăng cường năng suất
+          làm việc của bạn với Quản lí công việc.
         </Typography>
         <Box
           component="img"
@@ -94,8 +94,7 @@ const BottomComponent = () => {
             }
           }}
         >
-          Join into other users around the world who are getting more
-          productivity with Task manager.
+          Bắt đầu hành trình quản lí công việc của bạn ngay hôm nay!
         </Typography>
       </Box>
     </>

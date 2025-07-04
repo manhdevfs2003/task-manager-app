@@ -12,7 +12,7 @@ const InfoComponent = () => {
       }}
     >
       <Typography variant="subtitle1" component={'p'}>
-        Accelerate your teams' work with
+        Thúc đẩy công việc của bạn với
         <Typography
           variant="subtitle1"
           component={'span'}

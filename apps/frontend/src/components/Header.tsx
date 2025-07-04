@@ -111,7 +111,7 @@ const Header = () => {
         divider={<Divider orientation="vertical" flexItem />}
       >
         {accessToken && (
-          <Tooltip title="Settings">
+          <Tooltip title="Cài đặt">
             <IconButton
               href={`/profile/${userId}`}
               aria-label="profile"
@@ -123,7 +123,7 @@ const Header = () => {
           </Tooltip>
         )}
         {!accessToken && (
-          <Tooltip title="Login">
+          <Tooltip title="Đăng nhập">
             <IconButton
               href="/login"
               aria-label="login"
@@ -135,7 +135,7 @@ const Header = () => {
           </Tooltip>
         )}
         {accessToken && (
-          <Tooltip title="Logout">
+          <Tooltip title="Đăng xuất">
             <IconButton
               aria-label="logout"
               size="medium"
@@ -146,7 +146,7 @@ const Header = () => {
             </IconButton>
           </Tooltip>
         )}
-        <Tooltip title="Theme">
+        <Tooltip title="Chủ đề">
           <IconButton
             aria-label="toggle theme"
             size="medium"

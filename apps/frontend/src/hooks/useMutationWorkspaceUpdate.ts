@@ -54,7 +54,7 @@ const useMutationWorkspaceUpdate = ({
       return responseData;
     },
     onSuccess: (data: TWorkspace) => {
-      toast.success(`${data.title} is successfully updated`);
+      toast.success(`${data.title} đã cập nhật thành công!`);
       // Invalidate and refetch
       queryClient.invalidateQueries({ queryKey: ['workspaces'] });
       queryClient.invalidateQueries({

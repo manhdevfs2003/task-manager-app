@@ -60,7 +60,7 @@ const useMutationBoardUpdate = ({
     onSuccess: (data: TBoard) => {
       // Invalidate and refetch
       queryClient.invalidateQueries({ queryKey: ['board', boardId] });
-      toast.success(`${data.title} has successfully updated`);
+      toast.success(`${data.title} đã cập nhật thành công!`);
     }
   });
 

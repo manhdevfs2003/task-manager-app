@@ -8,9 +8,9 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:5173',
-      'http://localhost:5174', 
+      'http://localhost:5174',
       'https://task-manager-0d77.onrender.com',
-      /^https:\/\/.*\.vercel\.app$/
+      /^https:\/\/.*\.vercel\.app$/,
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,

@@ -28,18 +28,18 @@ export class AuthController {
       // Test with a default user - adjust email/password as needed
       const result = await this.authService.login({
         email: 'test@example.com',
-        password: 'password123'
+        password: 'password123',
       });
       return {
         message: 'Test login successful',
         access_token: result.access_token,
-        refresh_token: result.refresh_token
+        refresh_token: result.refresh_token,
       };
     } catch (error) {
       return {
         message: 'Test login failed - user may not exist',
         error: error.message,
-        instructions: 'Create a user first or check your credentials'
+        instructions: 'Create a user first or check your credentials',
       };
     }
   }

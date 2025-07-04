@@ -52,7 +52,7 @@ const useMutationBoardDelete = ({
     },
     onSuccess: () => {
       navigate('/');
-      toast.success(`${boardTitle} has successfully deleted`);
+      toast.success(`${boardTitle} đã xoá thành công!`);
     }
   });
 

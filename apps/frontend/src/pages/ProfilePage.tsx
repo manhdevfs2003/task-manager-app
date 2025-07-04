@@ -112,7 +112,7 @@ const ProfilePage = () => {
             fontWeight: 600
           }}
         >
-          Profile
+          Thông tin cá nhân
         </Typography>
         <Stack
           direction={'row'}
@@ -125,7 +125,7 @@ const ProfilePage = () => {
               fontWeight: 400
             }}
           >
-            Role:
+            Vai trò:
           </Typography>
           <Typography
             variant="subtitle2"

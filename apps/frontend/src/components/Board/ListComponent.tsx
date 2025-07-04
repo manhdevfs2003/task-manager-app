@@ -97,7 +97,7 @@ const ListComponent = ({
                 variant="subtitle1"
                 sx={{ display: matches ? 'block' : 'none' }}
               >
-                Add a list
+                Thêm danh sách
               </Typography>
             </Button>
           </CardContent>

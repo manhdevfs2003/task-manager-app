@@ -55,8 +55,8 @@ const HeroComponent = () => {
               }
             }}
           >
-            <span style={{ fontWeight: 600 }}>Task Manager</span>{' '}
-            helps you organize all tasks
+            <span style={{ fontWeight: 600 }}>Quản lí công việc</span>{' '}
+            giúp bạn tổ chức công việc
           </Typography>
           <Typography
             variant="subtitle1"
@@ -72,15 +72,15 @@ const HeroComponent = () => {
               mt: '0.5rem'
             }}
           >
-            Keep everything in one place - even if you work from
-            different locations.
+            Lưu trữ mọi thứ ở một nơi - ngay cả khi bạn làm việc ở
+            những địa điểm khác nhau.
           </Typography>
           <Button
             href={`/register`}
             variant="contained"
             sx={{ mt: '1rem' }}
           >
-            Register
+            Đăng ký
           </Button>
         </Box>
         <Box

@@ -59,7 +59,7 @@ const useMutationListDelete = ({
       queryClient.invalidateQueries({
         queryKey: ['board', boardId]
       });
-      toast.success(`${listTitle} has successfully deleted`);
+      toast.success(`${listTitle} đã xoá thành công!`);
     }
   });
 
