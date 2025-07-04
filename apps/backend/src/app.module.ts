@@ -12,6 +12,7 @@ import { BoardModule } from './board/board.module';
 import { ActivityModule } from './activity/activity.module';
 import { ListModule } from './list/list.module';
 import { CardModule } from './card/card.module';
+import { AppController } from './app.controller';
 
 @Module({
   imports: [
@@ -30,6 +31,7 @@ import { CardModule } from './card/card.module';
     ListModule,
     CardModule,
   ],
+  controllers: [AppController],
   providers: [
     {
       provide: APP_GUARD,
